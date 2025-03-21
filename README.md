@@ -140,3 +140,6 @@ sns.pairplot(df)
 
 # RESULT
         <<INCLUDE YOUR RESULT HERE>>
+
+### Name : ASWIN B
+### Register Number : 212224110007
