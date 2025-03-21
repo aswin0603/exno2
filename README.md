@@ -1,6 +1,7 @@
-# EXNO2DS
+# Ex. No. 02 - Exploratory Data Analysis
+
 # AIM:
-      To perform Exploratory Data Analysis on the given data set.
+To perform Exploratory Data Analysis on the given data set.
       
 # EXPLANATION:
   The primary aim with exploratory analysis is to examine the data for distribution, outliers and anomalies to direct specific testing of your hypothesis.
@@ -33,6 +34,8 @@ df = pd.read_csv('/content/titanic_dataset.csv')
 df
 ```
 ![image](https://github.com/user-attachments/assets/c2499a8c-4d4b-4218-9752-a6e5acca0426)
+
+### Analysis Processess
 
 ``` python
 df.info()
@@ -126,6 +129,7 @@ sns.catplot(data=df,col = "Survived",x = "Gender",hue="Pclass",kind = "count")
 ```
 ![image](https://github.com/user-attachments/assets/91f26ef3-e1ba-430c-874b-97cc22791611)
 
+### Co-Relation
 --pending result--
 
 ``` python
