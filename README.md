@@ -130,7 +130,13 @@ sns.catplot(data=df,col = "Survived",x = "Gender",hue="Pclass",kind = "count")
 ![image](https://github.com/user-attachments/assets/91f26ef3-e1ba-430c-874b-97cc22791611)
 
 ### Co-Relation
---pending result--
+``` python
+dt = df[['Survived', 'Pclass', 'Age','SibSp', 'Parch', 'Fare']]
+corr = dt.corr()
+sns.heatmap(corr,annot=True)
+```
+![image](https://github.com/user-attachments/assets/cda25ea6-8e95-4772-bdac-d3885a63e292)
+
 
 ``` python
 sns.pairplot(df)
@@ -139,7 +145,8 @@ sns.pairplot(df)
 
 
 # RESULT
-        <<INCLUDE YOUR RESULT HERE>>
+Thus, we have carried out the required exploratory data analysis in the 'titanic.csv' file using the python libraries numpy, pandas, matplotlib and seaborn.
+
 
 ### Name : ASWIN B
 ### Register Number : 212224110007
